@@ -1,0 +1,106 @@
+:root{
+    --violet: hsl(257, 40%, 49%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--violet);
+    background-color: var(--violet);
+    width: 1440px;
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+
+}
+
+.background {
+    width: 1440px;
+    z-index: -1;
+    height: 100vh;
+    position: absolute;
+    
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 550px;
+    padding-top: 25px;
+}
+.container {
+    background-color: var(--violet);
+    padding-left: 20px;
+    padding-top: 80px;
+    display: flex;
+   
+}
+.huddle{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.community{
+    font-size: 45px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    width: 500px;
+}
+
+
+.margin{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.register {
+    color: var(--violet);
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px 20px;
+    width: 100px;  
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.register a {
+    color: var(--violet);
+    text-decoration: none;
+    
+}
+.register: :hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 375px){
+    .background{
+        width: 200px;
+        height: 50vh;
+
+    }
+    .container{
+        width: 20px;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .community{
+        width: 200px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    
+    P{
+        width: 200px;
+    }
+}
+    
